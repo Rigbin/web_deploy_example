@@ -8,6 +8,6 @@ const footerYear = document.getElementById('footer-year');
 const now = new Date();
 footerYear.innerHTML = now.getFullYear();
 
-const VERSION_NUMBER = '0.0.4';
+const VERSION_NUMBER = '0.0.5';
 const versionSpan = document.querySelector('span#version');
 versionSpan.innerHTML = VERSION_NUMBER;
